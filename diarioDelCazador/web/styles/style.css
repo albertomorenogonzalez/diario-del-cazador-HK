@@ -1,0 +1,20 @@
+@font-face {
+    font-family: 'LetterFont'; 
+    src: url("../fonts/Trajan\ Pro\ Regular/"); 
+}
+
+body {
+    background-image:url('../images/loginbackground.png');
+    background-size: cover;
+}
+
+form {
+    background-image:url('../images/logincardbackground.jpg');
+    background-size: cover;
+}
+
+h1, p, label, button {
+    font-family: 'LetterFont'; 
+}
+
+#logo {width:60px;}
