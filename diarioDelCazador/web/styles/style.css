@@ -4,8 +4,30 @@
 }
 
 body {
-    background-image:url('../images/loginbackground.png');
     background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: 66%;
+}
+
+#index {
+    background-image:url('../images/loginbackground.png');
+}
+
+#principal {
+    background-image:url('../images/principalbackground.jpg');
+}
+
+#aniadir {
+    background-image:url('../images/aniadirbackground.jpg');
+}
+
+#editar {
+    background-image:url('../images/editarbackground.jpg');
+}
+
+#register {
+    background-image:url('../images/registerbackground.jpg');
 }
 
 form {
@@ -13,8 +35,17 @@ form {
     background-size: cover;
 }
 
-h1, p, label, button {
+h1, p, label, button, table, nav, a, h4 {
     font-family: 'LetterFont'; 
+}
+
+a {
+    color:white;
+    text-decoration:none;
+}
+
+#nombre {
+    font-weight: bold;
 }
 
 #logo {width:60px;}
