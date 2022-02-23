@@ -3,6 +3,8 @@ Aplicación CRUD del Diario del Cazador del videojuego Hollow Knight. Es una bas
 
 ---
 
-<center>![index](https://github.com/albertomorenogonzalez/diario-del-cazador-HK/blob/main/diarioDelCazador/web/images/icon.jpg)</center>
+<p align="center">
+![index](https://github.com/albertomorenogonzalez/diario-del-cazador-HK/blob/main/diarioDelCazador/web/images/icon.jpg)
    
 *"Aventúrate en las profundidades de esta tierra y dale muerte a las bestias. Demuestra que eres digno de llevar la marca del cazador."*
+</p>
