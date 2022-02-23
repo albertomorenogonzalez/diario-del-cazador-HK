@@ -8,7 +8,7 @@ Aplicación CRUD del Diario del Cazador del videojuego Hollow Knight. Es una bas
 </p>
 
 <p align="center">
-   "Aventúrate en las profundidades de esta tierra y dale muerte a las bestias. Demuestra que eres digno de llevar la marca del cazador."
+   <i>"Aventúrate en las profundidades de esta tierra y dale muerte a las bestias. Demuestra que eres digno de llevar la marca del cazador"</i>
 </p>
 
 ---
@@ -95,3 +95,304 @@ En este caso hemos seleccionado una foto de perfil pero podríamos perfectamente
 
 <br>
 
+El valor de la fecha de nacimiento originalmente era del tipo date en la base de datos, pero debido a que el formato del navegador es distinto al formato de phpadmin y genera conflicto al añadir los datos.
+
+<br>
+
+Cuando hemos rellenado todos los datos necesarios para registrar al usuario, le damos al botón "Registrarse". El botón "Cancelar" nos devolverá a la página de inicio. Al darle al botón "Registrarse" los datos se enviarán a la página insertausuario.jsp, que contiene la siguiente función para añadirla a la base de datos
+
+<br>
+
+![insertarusuariofuncion](https://github.com/albertomorenogonzalez/diario-del-cazador-HK/blob/main/capturas/insertarusuariofuncion.png)
+
+<br>
+
+y nos aparecerá una página con el siguiente mensaje:
+
+<br>
+
+![userregistradoconfirmacion](https://github.com/albertomorenogonzalez/diario-del-cazador-HK/blob/main/capturas/userregistradoconfirmacion.png)
+
+<br>
+
+Pulsamos el botón, volvemos a la página de inicio, rellenamos el formulario con los datos del nuevo usuario y le damos a "Enviar".
+
+<br>
+
+![iniciandosesion](https://github.com/albertomorenogonzalez/diario-del-cazador-HK/blob/main/capturas/iniciandosesion.png)
+
+<br>
+
+Nos aparece la página principal, con neustro nombre de usuario y nuestra foto de perfil en la parte superior, junto con un "Cerrar Sesión". Ahora si podemos añadir o modificar enemigos. 
+
+<br>
+
+![principalusuarioregistrado](https://github.com/albertomorenogonzalez/diario-del-cazador-HK/blob/main/capturas/principalusuarioregistrado.png)
+
+<br>
+
+Bajemos hasta el fondo de la página y pulsemos en "Añadir enemigo". Nos aparecerá este formulario.
+
+<br>
+
+![insertarenemigo](https://github.com/albertomorenogonzalez/diario-del-cazador-HK/blob/main/capturas/insertarenemigo.png)
+
+![desplegablezonas](https://github.com/albertomorenogonzalez/diario-del-cazador-HK/blob/main/capturas/desplegablezonas.png)
+
+![desplegablebosses](https://github.com/albertomorenogonzalez/diario-del-cazador-HK/blob/main/capturas/desplegablebosses.png)
+
+<br>
+
+Añadiremos los siguiente datos:
+
+- Nombre: Hollow Knight
+
+- Descripción: Receptáculo adulto que encierra al corazón de la plaga en su cuerpo.
+
+- Zona: Cruces Olvidados
+
+- ¿Es Boss?: Sí
+
+<br>
+
+![insertandoenemigo](https://github.com/albertomorenogonzalez/diario-del-cazador-HK/blob/main/capturas/insertandoenemigo.png)
+
+<br>
+
+Le damos a "Añadir" para añadir los datos del enemigo a la base de datos y "Cancelar" para volver a la página principal, al darle a "Añadir se enviarán los datos a la página insertar.jsp que contiene la siguiente función para añadirla a la base de datos.
+
+<br>
+
+![insertarfuncion](https://github.com/albertomorenogonzalez/diario-del-cazador-HK/blob/main/capturas/insertarfuncion.png)
+
+<br>
+
+y nos aparecerá una página con el siguiente mensaje:
+
+<br>
+
+![enemigoaniadidoconfirmacion](https://github.com/albertomorenogonzalez/diario-del-cazador-HK/blob/main/capturas/enemigoaniadidoconfirmacion.png)
+
+<br>
+
+Al volver a la página principal podemos ver al nuevo enemigo añadido.
+
+<br>
+
+![enemigoaniadido](https://github.com/albertomorenogonzalez/diario-del-cazador-HK/blob/main/capturas/enemigoaniadido.png)
+
+<br>
+
+Ahora modifiquemos la descripción y añadamos la siguiente
+
+- Descripción: El antiguo Rey de Hallownest... llegó a tomar medidas desesperadas para salvar su pequeño mundo. Obligó a muchos a realizar tremendos sacrificios... y todo para nada.
+
+<br>
+
+![modificarenemigo](https://github.com/albertomorenogonzalez/diario-del-cazador-HK/blob/main/capturas/modificarenemigo.png)
+
+<br>
+
+<br>
+
+![desplegablezonasmodificar](https://github.com/albertomorenogonzalez/diario-del-cazador-HK/blob/main/capturas/desplegablezonasmodificar.png)
+
+<br>
+
+<br>
+
+![desplegablebossesmodificar](https://github.com/albertomorenogonzalez/diario-del-cazador-HK/blob/main/capturas/desplegablebossesmodificar.png)
+
+<br>
+
+<br>
+
+![modificandoenemigo](https://github.com/albertomorenogonzalez/diario-del-cazador-HK/blob/main/capturas/modificandoenemigo.png)
+
+<br>
+
+El botón "Modificar" modificará los datos del enemigo, y el botón "Cancelar" nos devolverá a la página principal, al darle a "Modifcar"r se enviarán los datos a la página editar.jsp que contiene la siguiente función para añadirla a la base de datos
+
+<br>
+
+![editarfuncion](https://github.com/albertomorenogonzalez/diario-del-cazador-HK/blob/main/capturas/editarfuncion.png)
+
+<br>
+
+y nos aparecerá una página con el siguiente mensaje:
+
+<br>
+
+![enemigomodificadoconfirmacion](https://github.com/albertomorenogonzalez/diario-del-cazador-HK/blob/main/capturas/enemigomodificadoconfirmacion.png)
+
+<br>
+
+Podemos ver al volver a la página principal los datos modificados.
+
+<br>
+
+![enemigomodificado](https://github.com/albertomorenogonzalez/diario-del-cazador-HK/blob/main/capturas/enemigomodificado.png)
+
+<br>
+
+Pero ahora si le damos a borrar enemigo, nos aparecerá el mismo mensaje que cuando entramos a la página como invitado.
+
+<br>
+
+![resultadointentoborradoregistrado](https://github.com/albertomorenogonzalez/diario-del-cazador-HK/blob/main/capturas/resultadointentoborradoregistrado.png)
+
+<br>
+
+Para borrar los datos del enemigo, necesitaremos iniciar sesión con un usuario administrador, por lo que le daremos a "Cerrar Sesión" y volveremos a la página de inicio. Para cerrar la sesión en index.jsp al principio declararemos todas las variables de sesión como null, y ya después en el formulario se enviarán los datos introducidos a comprobarusuario.jsp para comprobar si esos datos coinciden con los que haya en la base de datos, en caso contrario se volverá a index.jsp.
+
+Código de index.jsp:
+
+<br>
+
+![codigoindex](https://github.com/albertomorenogonzalez/diario-del-cazador-HK/blob/main/capturas/codigoindex.png)
+
+<br>
+
+Código de comprobación en comprobarusuario.jsp:
+
+<br>
+
+![comprobarfuncion](https://github.com/albertomorenogonzalez/diario-del-cazador-HK/blob/main/capturas/comprobarfuncion.png)
+
+<br>
+
+En la página de inicio ponemos el **Usuario: admin** y **Contraseña: root** y le damos a "Enviar".
+
+<br>
+
+![iniciandosesioncomoadmin](https://github.com/albertomorenogonzalez/diario-del-cazador-HK/blob/main/capturas/iniciandosesioncomoadmin.png)
+
+<br>
+
+![principaladmin](https://github.com/albertomorenogonzalez/diario-del-cazador-HK/blob/main/capturas/principaladmin.png)
+
+<br>
+
+Vemos que el usuario que es administrador tiene una estrella junto a su nombre. Busquemos el enemigo que antes no pudimos borrar y demósle al botón de borrado.
+
+<br>
+
+![borradoenemigoadmin](https://github.com/albertomorenogonzalez/diario-del-cazador-HK/blob/main/capturas/borradoenemigoadmin.png)
+
+<br>
+
+Vemos que el mensaje cambia, ahora aparece el botón "Borrar" dentro del modal. Si le damos se enviará el id del enemigo (que está oculto) a borrar.jsp nos aparecerá el seguiente mensaje
+
+<br>
+
+![confirmacionborrado](https://github.com/albertomorenogonzalez/diario-del-cazador-HK/blob/main/capturas/confirmacionborrado.png)
+
+<br>
+
+y se ejecutó la siguiente función:
+
+<br>
+
+![borrarfuncion](https://github.com/albertomorenogonzalez/diario-del-cazador-HK/blob/main/capturas/borrarfuncion.png)
+
+<br>
+
+Al volver a la página principal nos encontraremos con que el enemigo ya no aparece.
+
+<br>
+
+![enemigoborrado](https://github.com/albertomorenogonzalez/diario-del-cazador-HK/blob/main/capturas/enemigoborrado.png)
+
+<br>
+
+---
+
+**Código Destacado**
+
+<br>
+
+Consultas SQL de la página principal para mostrar los datos
+
+<br>
+
+![principalqueries](https://github.com/albertomorenogonzalez/diario-del-cazador-HK/blob/main/capturas/principalqueries.png)
+
+<br>
+
+<br>
+
+Código de la navbar que cambia según si entra un usuario registrado o un invitado
+
+<br>
+
+![navbar](https://github.com/albertomorenogonzalez/diario-del-cazador-HK/blob/main/capturas/navbar.png)
+
+<br>
+
+<br>
+
+Código de la tabla (sin columnas "Editar y "Borrar") donde se muestran los enemigos y sus datos
+
+<br>
+
+![tabla](https://github.com/albertomorenogonzalez/diario-del-cazador-HK/blob/main/capturas/tabla.png)
+
+<br>
+
+<br>
+
+Código del botón "Añadir", en caso de usuario registrado y de invitado
+
+<br>
+
+![codigobotonaniadir](https://github.com/albertomorenogonzalez/diario-del-cazador-HK/blob/main/capturas/codigobotonaniadir.png)
+
+<br>
+
+<br>
+
+Código del botón "Modificar", en ambos casos de sesión
+
+<br>
+
+![codigobotonmodificar](https://github.com/albertomorenogonzalez/diario-del-cazador-HK/blob/main/capturas/codigobotonmodificar.png)
+
+<br>
+
+<br>
+
+ódigo del botón "Borrar" en ambos casos, admin y no admin
+
+<br>
+
+![codigobotonborrado](https://github.com/albertomorenogonzalez/diario-del-cazador-HK/blob/main/capturas/codigobotonborrado.png)
+
+<br>
+
+<br>
+
+Código de los modales que salen al pulsar el botón "Borrar" en ambos casos, admin y no admin
+
+<br>
+
+![codigomodalesborrado](https://github.com/albertomorenogonzalez/diario-del-cazador-HK/blob/main/capturas/codigomodalesborrado.png)
+
+<br>
+
+<br>
+
+Codigo del formulario para añadir un enemigo
+
+<br>
+
+![codigoformularioaniadirenemigo](https://github.com/albertomorenogonzalez/diario-del-cazador-HK/blob/main/capturas/codigoformularioaniadirenemigo.png)
+
+<br>
+
+<br>
+
+Codigo del formulario para modificar un enemigo
+
+<br>
+
+![codigoformulariomodificar](https://github.com/albertomorenogonzalez/diario-del-cazador-HK/blob/main/capturas/codigoformulariomodificar.png)
