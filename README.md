@@ -305,6 +305,9 @@ Al volver a la página principal nos encontraremos con que el enemigo ya no apar
 
 <br>
 
+<br>
+
+Nota: las imágenes de los enemigos aparecen gracias a que tienen el mismo nombre que los enemigos. La imagen de Hollow Knight aparece porque está guardada en los archivos de la aplicación. Si se intenta añadir otro enemigo no saldrá imagen.
 ---
 
 **Código Destacado**
